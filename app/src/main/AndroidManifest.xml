@@ -11,6 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FBkelasA">
+        <activity android:name=".database.TemanEdit"></activity>
         <activity android:name=".database.LihatTeman"></activity>
         <activity android:name=".database.TambahTeman"></activity>
         <activity android:name=".MainActivity">

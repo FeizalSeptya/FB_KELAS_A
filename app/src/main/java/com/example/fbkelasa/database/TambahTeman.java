@@ -14,8 +14,8 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 public class TambahTeman extends AppCompatActivity {
-    private EditText edNama, edTelpon;
-    private Button submitBtn;
+    EditText edNama, edTelpon;
+    Button submitBtn;
     private DatabaseReference database;
     String nm,tlp;
 

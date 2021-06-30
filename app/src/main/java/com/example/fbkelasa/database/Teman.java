@@ -1,5 +1,7 @@
 package com.example.fbkelasa.database;
 
+import androidx.annotation.NonNull;
+
 import java.io.Serializable;
 
 public class Teman implements Serializable {
@@ -15,20 +17,38 @@ public class Teman implements Serializable {
         this.telpon = telpon;
     }
 
-    public String getNama() { return nama; }
+    public String getNama() {
+        return nama;
+    }
 
-    public void setNama(String id) {this.nama = id; }
+    public void setNama(String id) {
+        this.nama = id;
+    }
 
-    public String getTelpon() { return telpon; }
+    public String getTelpon() {
+        return telpon;
+    }
 
-    public void setTelpon(String id) {this.telpon = id; }
+    public void setTelpon(String id) {
+        this.telpon = id;
+    }
 
-    public String getKode() {
+    public String getKode()
+    {
         return kode;
     }
 
     public void setKode(String kode) {
         this.kode = kode;
+    }
+
+    @Override
+    public String toString() {
+        return "Teman{" +
+                "nama='"+ nama + '\'' +
+                ", telpon='" + telpon +'\'' +
+                ", kode='" + kode + '\'' +
+                '}';
     }
 }
 
